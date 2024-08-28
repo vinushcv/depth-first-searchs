@@ -55,8 +55,8 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
 </ol></B>
 
 <hr>
-# Program
-```python
+<h3> Program</h3>
+<hr>
 #import defaultdict
 from collections import defaultdict
 def dfs(graph,start,visited,path):
@@ -81,7 +81,7 @@ visited=defaultdict(bool)
 path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
-```
+<hr>
 <h3>Sample Input</h3>
 <hr>
 8 9 <BR>
